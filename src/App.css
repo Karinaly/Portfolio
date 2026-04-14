@@ -28,7 +28,7 @@
 }
 
 .bendrasbg{
-    background-image: url('../Public/Nuotraukos/bcimg.jpg');
+    background-image: url('/Nuotraukos/bcimg.jpg');
     min-height: 100vh;
     width: 100%;
     background-position: center;
