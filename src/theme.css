@@ -1,0 +1,26 @@
+:root{
+    --accent-color: #FF95D1;
+}
+.heart{
+    height: 50px;
+    object-fit: contain;
+    width: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    transition: transform 0.1s ease;
+
+}
+.heart:hover{
+    transform: scale(1.1);
+}
+
+.pink{
+    --accent-color: #FF95D1;
+}
+.blue{
+    --accent-color:  #9BBEDD;
+}

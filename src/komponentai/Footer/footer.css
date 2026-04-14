@@ -1,0 +1,55 @@
+#contact{
+    background-color: #49494B;
+    color: white;
+    min-height: 45vh;
+    width: 100%;
+}
+
+.pagrindine{
+    padding: clamp(20px, 4vw, 50px);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.antras{
+    background-color: white;
+    padding: clamp(10px, 2vw, 20px);
+    display: flex;
+    
+}
+
+hr{
+    margin: 0;
+    border: 1.5px solid white;
+}
+
+#thankyou{
+    font-size: clamp(4rem, 7vw, 5rem);
+    font-weight: 700;
+    color: black;
+    line-height: 0.9;
+    letter-spacing: -3px;
+    margin: 0;
+    align-self: center;
+    
+}
+
+#kontaktai{
+    font-size: clamp(4rem, 7vw, 5rem);
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.info{
+    line-height: 0.7;
+    font-size: clamp(0.9rem, 2vw, 1.5rem);
+}
+
+#rights{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top: 1em;
+}

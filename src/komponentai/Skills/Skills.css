@@ -1,0 +1,52 @@
+.card{
+    border: 1px solid black;
+    height: 17em;
+    width: 18em;
+    padding: 1em;
+    justify-content: center;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.react-multi-carousel-list {
+  overflow: visible !important;
+}
+
+.Ikonos{
+    height: 90px;
+    width: 90px;
+    align-self: center;
+    margin-bottom: 0.5em;
+}
+
+#skills{
+    min-height: 70vh;
+    width: 100%;
+} 
+
+#Igudziai{
+    font-family: 'fancy';
+    font-size: clamp(5rem, 5vw, 6rem);
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+.subheading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.text{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.1;
+    margin: 0;
+}

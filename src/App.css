@@ -1,0 +1,44 @@
+
+.toggle{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    z-index: 100;
+    
+}
+
+
+.navbar{
+    background: transparent;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+    height: 5rem;
+
+}
+.nav-item{
+    transition: transform 0.3s ease;
+}
+.nav-item:hover{
+   transform: scale(1.1);
+}
+
+.bendrasbg{
+    background-image: url('../Public/Nuotraukos/bcimg.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+@font-face {
+    font-family: 'fancy';
+    src: url(../src/fonts/snellroundhand_black.woff);
+}
+

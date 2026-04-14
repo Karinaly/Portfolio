@@ -1,0 +1,41 @@
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.centrastx{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: clamp(4rem, 17vw, 8rem);
+    text-align: center;
+
+}
+
+h1{
+    font-size: clamp(6rem, 7vw, 8rem);
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+#fancy{
+    font-family: 'fancy';
+    font-size: clamp(11rem, 12vw, 18rem);
+    line-height: 1;
+    margin-top: -0.2em;
+    text-shadow: 2px 2px 2px black;
+    color: var(--accent-color);
+}
+
+.arrow{
+    position: absolute;
+    bottom: 3rem;
+    transition: transform 0.3s ease; 
+}
+
+.arrow:hover{
+    transform: translateX(-0%) translateY(10px);
+}
